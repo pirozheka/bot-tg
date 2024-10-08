@@ -1,3 +1,6 @@
-## Запуск БД Postgres в Docker
+## Клонируем репозиторий
 
-docker run --name my_postgres -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
+## Переходим в папку cd bots
+## Создаем виртуальное окружение, активируем и устанавливаем зависимости из requirements
+## python dbcreating.py - создаем базу 
+## запускаем бота python bot.py
